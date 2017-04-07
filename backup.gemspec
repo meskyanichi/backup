@@ -52,4 +52,12 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec", "2.14.1"
   gem.add_development_dependency "mocha", "0.14.0"
   gem.add_development_dependency "timecop", "0.7.1"
+  gem.add_development_dependency "activerecord"
+  gem.add_development_dependency "mysql2"
+  gem.add_development_dependency "iconv"
+  gem.add_development_dependency "pg"
+  gem.add_development_dependency "mongo"
+  gem.add_development_dependency "bson_ext"
+  gem.add_development_dependency "redis"
+  gem.add_development_dependency "riak-client"
 end

@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  ruby_backup_tester:
+    build: .
+    command: /bin/bash
+    image: ruby_backup_tester
+    volumes:
+      - ".:/usr/src/backup"
+    links:
+      - mysql
+      - postgres
+  mysql:
+    image: mysql:5.5.54
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+  postgres:
+    image: postgres:9.4.10

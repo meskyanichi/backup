@@ -80,7 +80,8 @@ Metrics/BlockLength:
   Max: 28
   Exclude:
     - "backup.gemspec"
-    - "spec/**/*"
+    - 'integration/**/*'
+    - 'spec/**/*'
 
 # Offense count: 1
 Metrics/BlockNesting:
