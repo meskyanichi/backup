@@ -25,6 +25,7 @@ describe Backup::Utilities do
         # Compressors
         gzip    "/path/to/gzip"
         bzip2   "/path/to/bzip2"
+        pbzip2  "/path/to/pbzip2"
 
         # Database Utilities
         mongo        "/path/to/mongo"

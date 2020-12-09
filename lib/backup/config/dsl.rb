@@ -30,7 +30,7 @@ module Backup
               ["S3", "CloudFiles", "Dropbox", "FTP",
                "SFTP", "SCP", "RSync", "Local", "Qiniu"],
               # Compressors
-              ["Gzip", "Bzip2", "Custom"],
+              ["Gzip", "Bzip2", "PBzip2", "Custom"],
               # Encryptors
               ["OpenSSL", "GPG"],
               # Syncers
